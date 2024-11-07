@@ -16,10 +16,6 @@ public class Ascend {
 		double max2 = Math.max(max1, c);
 		double mid = ((a+b+c)- (min2+max2));
 		System.out.println(" " + (int)(min2)+ " " + (int)(mid) + " " + (int)(max2));
-
-
-
-
 	}
 }
 
