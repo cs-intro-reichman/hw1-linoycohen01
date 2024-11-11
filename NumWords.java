@@ -6,7 +6,7 @@ public class NumWords {
 		x = (x / 10);
 		int tens = (x%10);
 		x = (x/10);
-		int hundreds = (x%10);
+		int hundreds = x;
 		System.out.println(hundreds + " hundreds, " + tens + " tens, and " + ones + " ones.");
 
 		
